@@ -1,0 +1,131 @@
+.wrapper{
+  position: absolute;
+    background-color:#e3e3e3;
+    width:100%;
+    height:auto;
+    display:flex;
+    border-radius:15px;
+    list-style: none;
+
+
+
+}
+#li
+{
+  width:190px;
+}
+.wrapper .wrapper_left{
+  width:250px;
+  background-color:#f0ebeb;
+  padding: 0 25px;
+  display:flex;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 10px 0 13px  0px  rgba(41,41,57,0.7);
+
+}
+.wrapper .wrapper_left ul li
+{
+   background:#f0ebeb;
+   margin-bottom:25px;
+   border-radius: 3px;
+   padding:12px 25px;
+   text-transform: uppercase;
+   font-weight:500;
+   position: relative;
+   width:200px;
+   letter-spacing:2px;
+   transition: all 0.4s ease;
+   cursor: pointer;
+   overflow:hidden;
+}
+.wrapper .wrapper_left ul li p
+{
+  color:#abaacd;
+  position: relative;
+
+
+}
+.wrapper .wrapper_left ul li::before
+{
+  content:" ";
+position:absolute;
+top: 0px;
+left:0px;
+width:155px;
+height:100%;
+background: #5437b7;
+background: linear-gradient(
+  126deg,rgba(2,0,36,1) 0%,
+  rgba(122,90,231,1) 0%,
+  rgba(84,54,206,1) 100%,
+
+  );
+  border-radius:5px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    transition: all 0.4s ease;
+
+}
+.wrapper .wrapper_left ul li:last-child{
+  margin-bottom: 0;
+}
+.wrapper .wrapper_left ul li.active{
+  width:250px;
+}
+.wrapper .wrapper_left ul li.active p{
+color:#ffff;
+}
+.wrapper .wrapper_left ul li.active::before{
+  width:100%;
+  transition: all 0.2s ease;
+}
+.wrapper_right
+{
+  width:550px;
+  padding: 30px 50px;
+
+}
+.wrapper_right .title
+{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  color:#6b6b93;
+  margin-bottom:20px;
+  text-transform: uppercase;
+}
+.wrapper_right .item .item_info
+{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+/*.wrapper_right .item .item_info .img
+{
+  width: 200px;
+  height:200px;
+  background: #fff;
+  border-radius: 50%;
+  margin-bottom:20px;
+  position:relative;
+}
+.wrapper_right .item .item_info .img::before
+{
+  content:" ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: url("DC.svg") no-repeat 0 0;
+  width:80px;
+  height:80px;
+
+}*/
+.werd{
+
+    display: inline-block;
+
+
+}
